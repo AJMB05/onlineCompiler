@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Compiler</title>
+
+    <meta name="description" content="L3 Online Compiler">
+    <meta name="author" content="AJMB">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://json2table.com/viewer.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>
+					<small>L3 Online Compiler</small>
+				</h1>
+			</div>
+			<div class="panel-group" id="panel-604586">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-604586" href="#panel-element-727015" id="aCode">Code</a>
+					</div>
+					<div id="panel-element-727015" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<div class="col-md-11">
+								<textarea rows="20" id="code" name="code" style="width: 100%"></textarea>
+							</div>
+							<div class="col-md-1">
+								<button type="button" class="btn btn-default" name="compile">
+									Compile
+								</button>
+								<br/>
+								<select class="form-control" id="language">
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						 <a class="panel-title" data-toggle="collapse" data-parent="#panel-604586" href="#panel-element-848476" id="aResults">Results</a>
+					</div>
+					<div id="panel-element-848476" class="panel-collapse collapse">
+						<div class="panel-body">
+							<!--div class="col-md-4">
+								<textarea rows="20" id="code" name="suggestions" style="width: 100%"></textarea>
+							</div-->
+							<div class="col-md-12">
+								<div class="tabbable" id="tabs-12678">
+									<ul class="nav nav-tabs">
+										<li class="active">
+											<a href="#panel-522883" data-toggle="tab">Text</a>
+										</li>
+										<li>
+											<a href="#panel-24258" data-toggle="tab">Table</a>
+										</li>
+										<li>
+											<a href="#inner_tree" data-toggle="tab">Tree</a>
+										</li>
+									</ul>
+									<div class="tab-content">
+										<div class="tab-pane active" id="panel-522883">
+											<textarea rows="20" id="code" name="result" style="width: 100%"></textarea>
+										</div>
+										<div class="tab-pane" id="panel-24258">
+											
+										</div>
+										<div id="inner_tree" class="tab-pane"><ol><li><label for="_r0hd42omu" class="lbl_obj">&nbsp;</label> <input type="checkbox" checked="" id="_r0hd42omu"><ol><li><label for="_502zzbaka" class="lbl_array">w</label> <input type="checkbox" checked="" id="_502zzbaka"><ol><li class="file"><a>0</a></li><li class="file"><a>2</a></li><li class="file"><a>4</a></li></ol></li><li><label for="_0ifuwvpio" class="lbl_obj">z</label> <input type="checkbox" checked="" id="_0ifuwvpio"><ol><li><label for="_verksj6o8" class="lbl_obj">a</label> <input type="checkbox" checked="" id="_verksj6o8"><ol><li class="file"><a>extra:stuff</a></li><li class="file"><a>value:1</a></li><li class="file"><a>name:foo</a></li></ol></li><li><label for="_w86dooww5" class="lbl_obj">b</label> <input type="checkbox" checked="" id="_w86dooww5"><ol><li class="file"><a>extra:stuff</a></li><li class="file"><a>value:2</a></li><li class="file"><a>name:bar</a></li></ol></li><li><label for="_deceq3147" class="lbl_obj">c</label> <input type="checkbox" checked="" id="_deceq3147"><ol><li class="file"><a>extra:stuff</a></li><li class="file"><a>value:3</a></li></ol></li></ol></li><li><label for="_lorqpk1xh" class="lbl_obj">x</label> <input type="checkbox" checked="" id="_lorqpk1xh"><ol><li class="file"><a>a:foo</a></li><li class="file"><a>b:bar</a></li></ol></li><li><label for="_owjh0gqhw" class="lbl_array">y</label> <input type="checkbox" checked="" id="_owjh0gqhw"><ol><li class="file"><a>4</a></li><li class="file"><a>5</a></li><li class="file"><a>6</a></li></ol></li></ol></li></ol></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/json-to-table.js"></script>
+	<script src="js/upload.js"></script>
+  </body>
+</html>

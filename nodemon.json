@@ -1,0 +1,4 @@
+{
+	"ignore" : ["public/*", "uploads/*", "outputs/*"],
+	"verbose" : true
+}
